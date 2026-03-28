@@ -91,7 +91,7 @@ export default function Contato({ whatsappLink }) {
                   Florianópolis - SC, 88032-310
                 </p>
                 <a
-                  href="https://maps.google.com/?q=R.+da+Timbauba,+253+-+Monte+Verde,+Florianopolis+-+SC"
+                  href="https://maps.google.com/?q=R.+da+Timbauba,+253+-+Monte+Verde,+Florianópolis+-+SC"
                   target="_blank" rel="noopener noreferrer"
                   style={{
                     display: 'inline-flex', alignItems: 'center', gap: 6,

@@ -163,7 +163,7 @@ export default function Avaliacoes({ whatsappLink }) {
   }
 
   return (
-    <section id="avaliacoes" className="section-padding" style={{ background: 'var(--bg-dark)' }}>
+    <section id="avaliações" className="section-padding" style={{ background: 'var(--bg-dark)' }}>
       <div className="section-container" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

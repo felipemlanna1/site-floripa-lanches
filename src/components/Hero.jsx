@@ -207,10 +207,10 @@ export default function Hero({ whatsappLink }) {
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="cta-whatsapp" style={{ fontSize: '1.05rem', padding: '18px 40px' }}>
                 <MessageCircle size={22} /> Pedir pelo WhatsApp
               </a>
-              <a href="#cardapio" className="cta-secondary" style={{ fontSize: '1.05rem', padding: '17px 38px' }}
+              <a href="#cardápio" className="cta-secondary" style={{ fontSize: '1.05rem', padding: '17px 38px' }}
                 onClick={(e) => {
                   e.preventDefault()
-                  const el = document.getElementById('cardapio')
+                  const el = document.getElementById('cardápio')
                   if (el) {
                     const top = el.getBoundingClientRect().top + window.scrollY - 80
                     window.scrollTo({ top, behavior: 'smooth' })

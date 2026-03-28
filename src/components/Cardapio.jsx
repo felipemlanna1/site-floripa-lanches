@@ -276,7 +276,7 @@ function MenuItem({ item, index }) {
   )
 }
 
-export default function Cardapio({ whatsappLink }) {
+export default function Cardápio({ whatsappLink }) {
   const [activeCategory, setActiveCategory] = useState('lanches')
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.05 })
 
@@ -360,7 +360,7 @@ export default function Cardapio({ whatsappLink }) {
               gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
               gap: 20,
             }}
-            className="cardapio-grid"
+            className="cardápio-grid"
           >
             {menuItems[activeCategory].map((item, i) => (
               <MenuItem key={item.name} item={item} index={i} />
@@ -402,7 +402,7 @@ export default function Cardapio({ whatsappLink }) {
         .menu-card { transition: all 0.35s cubic-bezier(0.4,0,0.2,1); }
         .menu-card:active { transform: translateY(-2px) scale(0.99); }
         @media (max-width: 600px) {
-          .cardapio-grid { grid-template-columns: 1fr !important; }
+          .cardápio-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
     </section>

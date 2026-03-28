@@ -78,7 +78,7 @@ export default function ManualDaMarca() {
               </div>
             </div>
             <p style={{ marginTop: 16, fontSize: '0.9rem' }}>
-              O logo apresenta a Ponte Hercilio Luz, simbolo de Florianopolis, sobre fundo amarelo
+              O logo apresenta a Ponte Hercilio Luz, simbolo de Florianópolis, sobre fundo amarelo
               com o nome da marca em faixa preta. O slogan "O prazer de comer bem esta aqui!"
               complementa a identidade.
             </p>
