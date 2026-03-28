@@ -5,7 +5,7 @@ import { MessageCircle, Flame, Trophy, Sparkles, Zap } from 'lucide-react'
 
 const categories = [
   { id: 'lanches', label: 'Lanches', emoji: '\u{1F354}' },
-  { id: 'porcoes', label: 'Porções', emoji: '\u{1F35F}' },
+  { id: 'porções', label: 'Porções', emoji: '\u{1F35F}' },
   { id: 'bebidas', label: 'Bebidas', emoji: '\u{1F964}' },
   { id: 'combos', label: 'Combos', emoji: '\u{1F389}' },
 ]
@@ -77,7 +77,7 @@ const menuItems = {
       emojiSize: '4.5rem',
     },
   ],
-  porcoes: [
+  porções: [
     {
       name: 'Batata Cheddar & Bacon',
       desc: 'Montanha de batata crocante coberta com cheddar cremoso derretendo e bacon picado. Porção generosa que dá pra dividir!',

@@ -49,7 +49,7 @@ export default function ManualDaMarca() {
             </h1>
             <p style={{ maxWidth: 650, fontSize: '1.1rem', lineHeight: 1.7, marginBottom: 56 }}>
               Guia de identidade visual do Floripa Lanches. Cores, tipografia, tom de voz e
-              diretrizes para manter a consistencia da marca em todos os canais.
+              diretrizes para manter a consistência da marca em todos os canais.
             </p>
           </motion.div>
 
@@ -195,7 +195,7 @@ export default function ManualDaMarca() {
             }}>
               {[
                 { title: 'Redes Sociais', items: ['Usar sempre as cores da paleta', 'Fotos com iluminacao quente', 'Close-ups de comida com foco no queijo derretido/molhos', 'Hashtags: #FloripaLanches #MonteVerde'] },
-                { title: 'Materiais Impressos', items: ['Logo com area de respiro minima de 20px', 'Fundo escuro preferencial', 'Nunca distorcer o logo', 'Manter hierarquia tipografica'] },
+                { title: 'Materiais Impressos', items: ['Logo com area de respiro mínima de 20px', 'Fundo escuro preferêncial', 'Nunca distorcer o logo', 'Manter hierarquia tipográfica'] },
                 { title: 'Digital / Website', items: ['Dark mode como padrao', 'CTAs sempre em verde WhatsApp', 'Animacoes sutis no scroll', 'Mobile-first em tudo'] },
               ].map(guide => (
                 <div key={guide.title} style={{
