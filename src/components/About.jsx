@@ -112,7 +112,7 @@ export default function About() {
                     boxShadow: '0 0 60px rgba(244,162,54,0.15), 0 0 120px rgba(214,40,40,0.08), 0 20px 60px rgba(0,0,0,0.5)',
                   }}
                 >
-                  <img src="/images/logo.jpg" alt="Floripa Lanches" style={{
+                  <img src="./images/logo.jpg" alt="Floripa Lanches" style={{
                     width: '100%', height: '100%', objectFit: 'cover',
                   }} />
                 </motion.div>

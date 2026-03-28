@@ -29,7 +29,7 @@ export default function Footer({ whatsappLink }) {
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
               <img
-                src="/images/logo.jpg"
+                src="./images/logo.jpg"
                 alt="Floripa Lanches"
                 style={{ width: 48, height: 48, borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--secondary)' }}
               />

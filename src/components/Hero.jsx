@@ -280,7 +280,7 @@ export default function Hero({ whatsappLink }) {
               style={{ position: 'relative', zIndex: 1 }}
             >
               <img
-                src="/images/hero-burger.jpg"
+                src="./images/hero-burger.jpg"
                 alt="Hambúrguer artesanal Floripa Lanches"
                 style={{
                   width: '100%',

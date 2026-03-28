@@ -74,7 +74,7 @@ export default function Navbar({ whatsappLink }) {
             flexShrink: 0,
           }}>
             <img
-              src="/images/logo.jpg"
+              src="./images/logo.jpg"
               alt="Floripa Lanches"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />

@@ -66,14 +66,14 @@ export default function ManualDaMarca() {
                 borderRadius: 'var(--radius-lg)', padding: 40,
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
               }}>
-                <img src="/images/logo.jpg" alt="Logo Floripa Lanches"
+                <img src="./images/logo.jpg" alt="Logo Floripa Lanches"
                   style={{ maxWidth: 200, borderRadius: 16 }} />
               </div>
               <div style={{
                 background: '#F4A236', borderRadius: 'var(--radius-lg)', padding: 40,
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
               }}>
-                <img src="/images/logo.jpg" alt="Logo sobre fundo amarelo"
+                <img src="./images/logo.jpg" alt="Logo sobre fundo amarelo"
                   style={{ maxWidth: 200, borderRadius: 16 }} />
               </div>
             </div>
